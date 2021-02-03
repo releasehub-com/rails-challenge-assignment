@@ -235,7 +235,7 @@ _**Important : Only users with the role `admin` may view nodes of type `large`!*
 * `:per` - number of nodes per page
  
 ### Example Response
-REQUEST : `GET /users/:user_id/your_endpoint?page=1&per=3&status=green&size=small`
+REQUEST : `GET /users/:chrissys_user_id/your_endpoint?page=1&per=3&status=green&size=small`
 
 RESPONSE
 ```ruby
