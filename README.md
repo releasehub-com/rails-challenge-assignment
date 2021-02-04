@@ -24,13 +24,16 @@ HEADERS: `'X-Auth-Token: int_api_yourtoken' -H  'X-Email: youremail@example.com'
 
 ** RESPONSE BODY EXAMPLE**
 ```ruby
-[{"id"=>"node_0",
-  "name"=>"Mr Gravity",
-  "total_pods"=>103,
-  "errored_pods"=>3,
-  "healthy_pods"=>97,
-  "restarting_pods"=>3,
-  "type"=>"large"},
+[
+  {
+    "id"=>"node_0",
+    "name"=>"Mr Gravity",
+    "total_pods"=>103,
+    "errored_pods"=>3,
+    "healthy_pods"=>97,
+    "restarting_pods"=>3,
+    "type"=>"large"
+  },
   ...
 ]
 ```
