@@ -1,13 +1,13 @@
 Release Rails - coding challenge
 =========
 
-This challenge will test your ability to consume an API we've set up for you and then produce an API that will meet certain criteria we expect.  There is no UI component. The challenge consists of three parts:
+This challenge will test your ability to consume an API we've set up for you and then produce an API that will meet certain criteria we expect.  There is no UI component. The challenge consists of three tasks:
 
-* Consume the API, setup consuming the api every 5 seconds, and store the info in the database.
-* Create Endpoints to create accounts, users, ability to assign users to accounts, and ability to assign "nodes" to users to monitor.
-* Create Rake tasks to load the accounts, users and assign roles and nodes.
-* Create Endpoint to query for "nodes" by user, and with params for thresholds, types of nodes, and includes pagination.
-* Write tests you feel necessary for models and requests.
+1) Consume an API from Release, setup calling the api every 5 seconds, and store the info in the database.
+2) Create Endpoints to create accounts, users, ability to assign users to accounts, and ability to assign "nodes" to users to monitor.
+3) Create an Endpoint to query for "nodes" by user, and with params for thresholds, types of nodes, and includes pagination.
+
+We encourage you to write tests you feel necessary for models and requests.
 
 ## Task 1
 ### Consume API and store the info in the database
